@@ -1,0 +1,45 @@
+/* ===========Fonts================= */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800&display=swap');
+
+*{
+    font-family: 'Montserrat', sans-serif;
+}
+
+.bg-topbar{
+    background-color: #EBEBEB;
+}
+/* navbar */
+ul.navbar-nav > li:hover > a, 
+ul.navbar-nav > li.active > a{
+    color:orange !important;
+}
+
+/* hero slider */
+.carousel-item1{
+    background-image: url('./img/slider-bg/bg1.jpg');
+}
+.carousel-item2{
+    background-image: url('./img/slider-bg/bg2.jpg');
+}
+.carousel-item3{
+    background-image: url('./img/slider-bg/bg3.jpg');
+}
+.carousel-item{
+    padding: 180px 0;
+}
+.carousel-control-next-icon, 
+.carousel-control-prev-icon{
+    background-color: #00000033;
+    transition: all .3s ease;
+}
+.carousel-control-next-icon:hover, 
+.carousel-control-prev-icon:hover{
+    background-color: #ffa500;
+}
+
+.call-to-action-top{
+    position: relative;
+    transform: translateY(-50%);
+}
+
+
