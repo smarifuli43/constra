@@ -17,6 +17,7 @@ ul.navbar-nav > li.active > a{
 /* hero slider */
 .carousel-item1{
     background-image: url('./img/slider-bg/bg1.jpg');
+   
 }
 .carousel-item2{
     background-image: url('./img/slider-bg/bg2.jpg');
@@ -24,7 +25,9 @@ ul.navbar-nav > li.active > a{
 .carousel-item3{
     background-image: url('./img/slider-bg/bg3.jpg');
 }
-.carousel-item{
+.carousel-item1,
+.carousel-item2,
+.carousel-item3{
     padding: 180px 0;
 }
 .carousel-control-next-icon, 
@@ -41,5 +44,93 @@ ul.navbar-nav > li.active > a{
     position: relative;
     transform: translateY(-50%);
 }
+
+
+
+
+/* ==================== statistics================ */
+.statistics{
+    background-color: #252525;
+}
+
+/* ===========projects============= */
+
+.projects{
+    background-color: #F9F9F9;
+}
+.project-item .project-img{
+    transition: all .3s ease;
+}
+.project-item:hover .project-img{
+   transform: scale(1.05);
+}
+.project-item .project-info{
+    opacity: 0;
+    transition: all .3s ease;
+}
+.project-item:hover .project-info{
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    background-color:rgba(0, 0, 0, 0.7);
+}
+
+.project-info-overlay{
+   position:absolute;
+   top:50%;
+   transform: translateY(-20%);
+   transition:all .3s ease;
+
+}
+.project-item:hover .project-info-overlay{
+    transform: translateY(-50%);
+}
+.fa-plus{
+    position:absolute;
+    top: 0;
+    right: 0;
+}
+
+
+/* ====================testimonial========== */
+.quote-text::before{
+    
+    content: "\f10d";
+    font-family: "Font Awesome 5 Free";
+    position: absolute;
+    font-size: 30px;
+    left: 0;
+    top: 0;
+    font-weight: 700;
+    color: #ffc009;
+    font-style: italic;
+}
+.carousel-indicators [data-bs-target] {
+    width:10px;
+    height:10px;
+    padding:0;
+    margin-right:8px;
+    margin-left:8px;
+    background-color:#acabab;
+    border-radius: 50%;
+   }
+   .carousel-indicators .active {
+       background-color:orange;
+       opacity: 1;
+   }
+
+.client img{
+    filter: grayscale(1);
+}
+
+
+
+
+
+
+
 
 
