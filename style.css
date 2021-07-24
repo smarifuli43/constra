@@ -126,11 +126,41 @@ ul.navbar-nav > li.active > a{
     filter: grayscale(1);
 }
 
+/* ==================blog=============== */
+.blog-titile{
+    font-weight: 600;
+}
+/* =======================footer================= */
+.footer-navigation{
+    background-color:#030303;
+   
+}
+.service-links{
+    border-bottom: 1px solid #fffefe21;
+}
+.service-links a{
+    color: rgba(255, 255, 255, 0.5);
+  transition:all .3s ease;
+}
+.service-links a:hover{
+   color: orange !important;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    font-weight: 600;
+}
+
+.quick-links a{
+    color: #000000;
+    font-size: 14px;
+    font-weight: 600;
+  transition:all .3s ease;
 
 
+}
 
-
-
-
-
+.quick-links a:hover{
+    color: #ffffff;
+}
 
